@@ -19,11 +19,17 @@
     function showNotification(){
         // new notification has string, options so string is usually a message for notifcation and body proptery is the options
         const notification = new Notification("New message from dcode", {
-            body:"hey mate what is up",
+            body:"hello",
             icon:"./ghost_animation_by_volorf.gif"
             // you can also display an icon when you see notifcation
         })
+        // event will run when you click on notification
+        notification.onclick = (e) =>{
+            window.location.href = "https://google.com";
+        }
     }
+
+
     if(Notification.permission === "granted"){
         showNotification();
         // this means if permission is not denied then request for permission 
