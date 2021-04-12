@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification API</title>
+</head>
+<body>
+    <p>Hello there</p>
+    
+    
+</body>
+
+<script>
+    // has default, granted or denied 
+    console.log(Notification.permission);
+
+    function showNotification(){
+        // new notification has string, options so string is usually a message for notifcation and body proptery is the options
+        const notification = new Notification("New message from dcode", {
+            body:"hey mate what is up",
+            icon:"./ghost_animation_by_volorf.gif"
+            // you can also display an icon when you see notifcation
+        })
+    }
+    if(Notification.permission === "granted"){
+        showNotification();
+        // this means if permission is not denied then request for permission 
+    } else if(Notification.permission !== "denied"){
+        Notification.requestPermission().then(permission =>{
+            // if permission was granted then show notification
+            if(permission === "granted"){
+                showNotification();
+            }
+
+        })
+    }
+</script>
+</html>
