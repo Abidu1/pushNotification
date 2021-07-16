@@ -1,18 +1,19 @@
 
 
     function notifyMe() {
+      navigator.serviceWorker.register('sw.js');
         // Let's check if the browser supports notifications
-        if (!("Notification" in window)) {
-          window.onload=function(){
-            var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
-            if (mobile) {
-                alert("Visit this on a Computer for Better View");              
-            }}}
+        // if (!("Notification" in window)) {
+        //   alert("This browser does not support desktop notification");
+        // }
       
         // Let's check whether notification permissions have already been granted
-        else if (Notification.permission === "granted") {
+         if (Notification.permission === "granted") {
           // If it's okay let's create a notification
           var notification = new Notification("Hi there!");
+          navigator.serviceWorker.ready.then(function(registration) {
+          registration.showNotification('Notification with ServiceWorker');
+          })
         }
       
         // Otherwise, we need to ask the user for permission
