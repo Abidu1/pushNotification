@@ -1,7 +1,7 @@
 {
   "name": "Notify API",
   "short_name": "Notifiy",
-  "start_url": "index.html",
+  "start_url": "./index.html",
   "background_color": "#fff",
   "theme_color": "#6dcdb1",
   "display": "standalone",
