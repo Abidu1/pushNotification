@@ -29,7 +29,7 @@
               body: 'Hello from JavaScript!',
               data: {prop1:123, prop2:"Steve"},
               lang: 'en-CA',
-              icon: '/ghost_animation_by_volorf.gif',
+              icon: './images/ghost_animation_by_volorf.jpg',
               timestamp: t,
               vibrate: [100, 200, 100]
           }
