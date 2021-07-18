@@ -21,7 +21,7 @@ const cacheFiles = [
     './images/ghost_animation_by_volorf.jpg',
     './images/download.png',
     './script.js',
-    '/js/sw-registration.js'
+    './sw.js'
 ]
 
 // Install event
