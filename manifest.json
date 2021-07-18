@@ -1,12 +1,12 @@
 {
   "name": "Notify API",
   "short_name": "Notifiy",
-  "start_url": "./index.html",
+  "start_url": "/pushNotification/index.html",
   "background_color": "#fff",
   "theme_color": "#6dcdb1",
   "display": "standalone",
   "icons": [{
-    "src": "/images/download.png",
+    "src": "/pushNotification/images/download.png",
     "sizes": "144x144",
     "type": "image/png"
   }]
