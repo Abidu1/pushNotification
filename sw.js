@@ -1,7 +1,7 @@
 self.addEventListener("install" , e =>{
     e.waitUntil(
         caches.open("static").then(cache =>{
-            return cache.addAll[("/", "index.html", "script.js","/images/download.png", "/images/ghost_animation_by_volorf.jpg")]
+            return cache.addAll[("./", "./index.html", "./script.js","./images/download.png", "./images/ghost_animation_by_volorf.jpg")]
         })
     )
 })
