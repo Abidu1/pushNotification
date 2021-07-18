@@ -1,7 +1,7 @@
 {
-  "name": "Notify API",
-  "short_name": "Notifiy",
-  "start_url": "./index.html",
+  "name": "pushNotification",
+  "short_name": "pushNotification",
+  "start_url": "https://abidu1.github.io/pushNotification/",
   "background_color": "#fff",
   "theme_color": "#6dcdb1",
   "display": "standalone",
