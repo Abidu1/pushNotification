@@ -16,12 +16,18 @@
 
 const cacheName = 'v1';
 const cacheFiles = [
-    './',
-    './index.html',
-    './images/ghost_animation_by_volorf.jpg',
-    './images/download.png',
-    './script.js',
-    './sw.js'
+    // './',
+    // './index.html',
+    // './images/ghost_animation_by_volorf.jpg',
+    // './images/download.png',
+    // './script.js',
+    // './sw.js'
+    'https://abidu1.github.io/pushNotification/',
+    'https://abidu1.github.io/pushNotification/index.html',
+    'https://abidu1.github.io/pushNotification/sw.js',
+    'https://abidu1.github.io/pushNotification/script.js',
+    'https://abidu1.github.io/pushNotification/images/download.png',
+    'https://abidu1.github.io/pushNotification/images/ghost_animation_by_volorf.jpg'
 ]
 
 // Install event
