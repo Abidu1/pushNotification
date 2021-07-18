@@ -25,6 +25,7 @@ const cacheFiles = [
     'https://abidu1.github.io/pushNotification/',
     'https://abidu1.github.io/pushNotification/index.html',
     'https://abidu1.github.io/pushNotification/sw.js',
+    'https://abidu1.github.io/pushNotification/manifest.json',
     'https://abidu1.github.io/pushNotification/script.js',
     'https://abidu1.github.io/pushNotification/images/download.png',
     'https://abidu1.github.io/pushNotification/images/ghost_animation_by_volorf.jpg'
