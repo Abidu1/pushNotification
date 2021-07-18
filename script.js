@@ -1,3 +1,4 @@
+
 //Notification objects have a close() method. SOME browser automatically close them.
         //Notification Events - click, error, close, show
         if( 'Notification' in window){

@@ -1,0 +1,14 @@
+{
+  "name": "Notify API",
+  "short_name": "Notifiy",
+  "start_url": "https://abidu1.github.io/pushNotification",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#6dcdb1",
+  "description": ".",
+  "icons": [{
+    "src": "./images/ghost_animation_by_volorf.jpg",
+    "sizes": "48x48",
+    "type": "image/jpg"
+  }]
+}
