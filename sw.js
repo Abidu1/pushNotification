@@ -16,7 +16,7 @@
 
 const cacheName = 'v1';
 const cacheFiles = [
-    '/',
+    './',
     './index.html',
     './images/ghost_animation_by_volorf.jpg',
     './images/download.png',
