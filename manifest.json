@@ -3,7 +3,7 @@
   "display": "standalone",
   "name": "pushNotification",
   "short_name": "Notify ",
-  "start_url": "./",
+  "start_url": "https://abidu1.github.io/pushNotification/",
   "scope": "/",
   "lang": "en",
   "description": "web app",
